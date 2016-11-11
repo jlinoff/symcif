@@ -1,5 +1,5 @@
 # symcif
-C program that demonstrates how to interface to the openssl library to encrypt or decrypt data.
+C program that demonstrates how to interface to the openssl library to encrypt or decrypt data using symmetric ciphers like AES.
 
 You can also list the available ciphers and digests.
 
