@@ -538,7 +538,7 @@ struct options_t* getopts(int argc, char** argv) {
   opts.mode = NOTSET;
   opts.base = basename(argv[0]);
   opts.verbose = 0;
-  opts.version = "0.1";
+  opts.version = "0.2";
 
   for(i=1; i<argc; i++) {
     const char* opt = argv[i];
@@ -738,6 +738,8 @@ void help(const struct options_t* opts) {
   printf("                       The digest algorithm. The default is sha256.\n");
   printf("\n");
   printf("    -h, --help         This help message.\n");
+  printf("\n");
+  printf("    -l, --list         List the supported ciphers and digests.\n");
   printf("\n");
   printf("    -i FILE, --input FILE\n");
   printf("                       The input file name. Default is stdin.\n");

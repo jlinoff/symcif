@@ -56,6 +56,8 @@ OPTIONS
     -i FILE, --input FILE
                        The input file name. Default is stdin.
 
+    -l, --list         List the supported ciphers and digests.
+
     -m DIGEST, --message-digest DIGEST, --digest DIGEST
                        Specify the message digest to use. The default is sha256.
                        See the --list output for the available message digests.
@@ -102,6 +104,6 @@ EXAMPLES
     $ diff text text.dec
 
 VERSION
-    0.1
+    0.2
 
 ```
